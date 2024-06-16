@@ -1,0 +1,688 @@
+/* Left & Right alignment */
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.padNull {
+  padding: 0;
+}
+/* Global properties ======================================================== */
+.glob {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  background: url(../images/partBg.jpg) 50% 50% no-repeat;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  line-height: 20px;
+  min-width: 950px;
+  min-height: 100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* Global Structure ========================================================= */
+.main {
+  margin: 0px auto 0 auto;
+  width: 940px;
+  z-index: 2;
+  height: 100%;
+}
+.page_spinner {
+  position: fixed;
+  background: #fff;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.page_spinner > span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.cusfsfsdfasfasgd {
+  object-fit: cover !important;
+  width: 100%;
+  height: 250px;
+}
+
+/* ============================= main layout ================================ */
+a {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  font-size: 14px;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  float: left;
+  position: relative;
+}
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #a9adb0;
+  font-size: 28px;
+  line-height: 25px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding-bottom: 38px;
+}
+h3 {
+  color: #f74f34;
+  font-size: 13px;
+  line-height: 22px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+p {
+  font-size: 13px;
+  color: #a9adb0;
+  line-height: 22px;
+  text-transform: uppercase;
+  padding-bottom: 22px;
+}
+.center {
+  padding: 0;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+/* ============================= header ============================ */
+.Name {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 100px;
+  padding-left: 240px;
+}
+header {
+  position: relative;
+  width: 940px;
+  height: 102px;
+  z-index: 3;
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+}
+.hide_text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#logo {
+  display: inline-block;
+  background: url(../images/logo.png) 0 0 no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100px;
+  width: 500px;
+  top: 100px;
+  left: 200px;
+}
+#logo:hover {
+  text-decoration: none;
+}
+
+.menu {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+.menuHolder {
+  display: inline-block;
+  position: absolute;
+  width: 940px;
+  z-index: 1;
+  left: 0;
+  top: 242px;
+}
+#menu {
+  z-index: 3;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+#menu > li {
+  position: relative;
+  color: white;
+  text-align: left;
+  display: inline-block;
+  float: left;
+  width: 226px;
+  height: 196px;
+  margin-right: 12px;
+  left: -1700px;
+}
+#menu > li > a {
+  display: block;
+  text-transform: uppercase;
+  position: relative;
+  height: 196px;
+  width: 226px;
+  z-index: 1;
+  overflow: hidden;
+}
+#menu > li > a:hover {
+  text-decoration: none;
+}
+#menu > li.active > a {
+  text-decoration: none;
+}
+#menu ._last {
+  margin: 0;
+}
+#menu > li img {
+  position: absolute;
+  top: 0;
+}
+.submenu_1 {
+  position: absolute;
+  z-index: 2;
+  top: 172px;
+  left: 110px;
+  display: block;
+  width: 140px;
+}
+.submenu_1 li {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 100%;
+  margin-bottom: 4px;
+}
+.submenu_1 a {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 35px;
+  color: #fff;
+  font-size: 25px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0px 15px 6px 15px;
+  background: #a9adb0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.submenu_1 li > a:hover,
+.submenu_1 li.sfHover > a {
+  text-decoration: none;
+  color: #fff;
+  background: #e0634e;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.mText {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 35px;
+  color: #fff;
+  font-size: 30px;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  text-align: center;
+  margin-top: 75px;
+}
+._area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 3;
+  left: 0;
+  display: block;
+  background: url(../images/pixel.png);
+}
+._overPl {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  z-index: 0;
+  left: 0;
+  display: block;
+  background: url(../images/bg2.png);
+}
+.menuExtra {
+  width: 226px;
+  height: 196px;
+  position: absolute;
+  display: inline-block;
+  background: url(../images/bg1.png) 0 0 no-repeat;
+  top: 0;
+}
+/* ============================= content ====================== */
+#content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  float: left;
+  overflow: visible;
+  height: 615px;
+}
+#content > ul {
+  width: 940px;
+  z-index: 0;
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+}
+#content > ul > li {
+  width: 940px;
+  display: block;
+  position: absolute;
+}
+.box {
+  width: 940px;
+  position: relative;
+  display: inline-block;
+}
+.space1 {
+  display: inline-block;
+  width: 95px;
+}
+.space2 {
+  display: inline-block;
+  width: 65px;
+}
+.more {
+  font-family: "Trebuchet MS", serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  background: #f74f34;
+  padding: 7px 14px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.more:hover {
+  text-decoration: none;
+  background: #a9adb0;
+  color: #fff;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+._link1 {
+  font-size: 13px;
+  color: #a9adb0;
+}
+.pic {
+}
+._link3 {
+  color: #f74f34;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+._link4 {
+  color: #a9adb0;
+  font-size: 12px;
+  line-height: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.padRight1 {
+  padding-right: 20px;
+}
+.padBot1 {
+  padding-bottom: 26px;
+}
+.padBot2 {
+  padding-bottom: 8px;
+}
+.padBot3 {
+  padding-bottom: 20px;
+}
+.padBot4 {
+  padding-bottom: 9px;
+}
+.padBot5 {
+  padding-bottom: 24px;
+}
+.padBot6 {
+  padding-bottom: 29px;
+}
+.marTop1 {
+  margin-top: -6px;
+}
+.marTop2 {
+  margin-top: 18px;
+}
+.bordBot1 {
+  border-bottom: 1px solid #eeefef;
+}
+._fig1 {
+  position: relative;
+  float: left;
+  margin-right: 13px;
+}
+._fig2 {
+  display: flex;
+  gap: 20px; /* відстань між фотографіями */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+._fig2 img {
+  width: 75px; /* фіксована ширина фото */
+  height: 75px; /* фіксована висота фото */
+  object-fit: cover; /* зберігає пропорції фото */
+  display: block;
+}
+._fig2 figcaption {
+  width: 140px;
+  position: relative;
+  float: left;
+  margin-top: -5px;
+}
+._fig2 p {
+  padding: 0;
+}
+._fig3 {
+  position: relative;
+  float: left;
+  display: inline-block;
+  margin-bottom: 35px;
+}
+._fig3 img {
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-right: 11px;
+}
+._fig3 figcaption {
+  width: 250px;
+  position: relative;
+  float: left;
+}
+._fig3 p {
+  padding: 0;
+}
+._fig4 {
+  background-size: contain;
+  border: 50px;
+}
+._fig4 img {
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-right: 11px;
+}
+._fig4 figcaption {
+  width: 220px;
+  position: relative;
+  float: left;
+  margin-top: 24px;
+}
+._fig4 p {
+  padding: 0;
+}
+._list1 {
+  width: 100%;
+  position: relative;
+}
+._list1 > li {
+  position: relative;
+  width: 100%;
+  background: url(../images/marker1.png) 0 50% no-repeat;
+  height: 20px;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+._list1 > li > a {
+  color: #a9adb0;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 20px;
+  margin-left: 13px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+._list1 > li > a:hover {
+  color: #f74f34;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#jcarousel_1 {
+  margin-top: 4px;
+}
+#jcarousel_1 > ul {
+  width: 940px;
+}
+#jcarousel_1 > ul > li {
+  width: 220px;
+  height: 360px;
+  position: relative;
+  float: left;
+  margin-right: 20px;
+}
+.btnHolder {
+  position: absolute;
+  top: 2px;
+  right: 0px;
+  width: 60px;
+  z-index: 2;
+}
+.scrButn {
+  position: relative;
+  margin-right: 0px;
+}
+.zoomSp {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 220px;
+  height: 270px;
+  z-index: 3;
+  background: url(../images/magnify.png) 50% 50% no-repeat #f74f34;
+}
+.closeBtn {
+  position: absolute;
+  display: inline-block;
+  z-index: 2;
+  right: 0;
+  top: 23px;
+}
+.closeBtn > .closeIcon {
+  width: 11px;
+  height: 14px;
+  position: relative;
+  display: inline-block;
+  background: url(../images/closeIcon.png) 0 0 no-repeat;
+  margin-top: 8px;
+}
+.closeBtn > .closeText {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  color: #a9adb0;
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 24px;
+  margin-left: 8px;
+}
+/* ============================= footer ====================== */
+footer {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  height: 35px;
+  display: inline-block;
+  bottom: 0;
+  float: left;
+}
+.mainFooter {
+  z-index: 2;
+}
+.textPrivacy {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #a9adb0;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.privHold {
+  line-height: 20px;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+}
+.followHolder {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+.followHolder > ul {
+  display: inline-block;
+}
+.followHolder > ul > li {
+  display: inline-block;
+  float: left;
+  margin-left: 6px;
+}
+/*===================================Map=====================================*/
+.google_map {
+  margin: 0;
+  width: 460px;
+  height: 220px;
+  background: #f74f34;
+  display: inline-block;
+}
+.google_map > span {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+}
+/* ============================= forms ============================= */
+#ContactForm {
+  padding: 0;
+}
+#ContactForm .bg {
+  padding: 0;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+#ContactForm .wrapper {
+  overflow: inherit;
+  min-height: 40px;
+}
+#ContactForm .success {
+  font-size: 10px;
+  position: relative;
+  float: left;
+  color: #f74f34;
+  width: 100%;
+  line-height: 11px;
+  padding-bottom: 2px;
+}
+#ContactForm label {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 100%;
+  padding-bottom: 12px;
+}
+#ContactForm .error,
+#ContactForm .empty {
+  font-size: 10px;
+  color: #f74f34;
+  line-height: 9px;
+  display: none;
+  width: 100%;
+  top: 0px;
+  position: relative;
+  float: left;
+  text-align: left;
+}
+#ContactForm a {
+  position: relative;
+  z-index: 1;
+}
+#ContactForm a:hover {
+  text-decoration: none;
+}
+#ContactForm .input {
+  width: 436px;
+  padding: 10px 10px;
+  color: #a9adb0;
+  outline: none;
+  font-size: 13px;
+  background: none;
+  font-family: Arial, sans-serif;
+  box-shadow: none;
+  border: 1px solid #e6e7e9;
+  text-transform: uppercase;
+}
+#ContactForm textarea {
+  overflow: auto;
+  margin: 0;
+  width: 436px;
+  height: 120px;
+  padding: 10px 10px;
+  color: #a9adb0;
+  resize: none;
+  outline: none;
+  font-size: 13px;
+  background: none;
+  font-family: Arial, sans-serif;
+  box-shadow: none;
+  border: 1px solid #e6e7e9;
+  text-transform: uppercase;
+}
+#ContactForm .block {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  float: left;
+}
+#ContactForm .marNone {
+  margin: 0;
+}
+.formButtons {
+  position: relative;
+  float: right;
+  display: inline-block;
+  margin-top: 12px;
+}
+.formBtn {
+  display: inline-block;
+  position: relative;
+  margin-left: 4px;
+}
+
+/* ============================= end forms ============================= */

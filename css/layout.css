@@ -1,0 +1,43 @@
+.containerContent {
+  z-index: 1;
+  position: relative;
+  padding: 112px 0px 85px 0px;
+  display: inline-block;
+  width: 940px;
+  border-top: 1px solid #e8eaea;
+}
+.col1 {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+.col2 {
+  width: 460px;
+  position: relative;
+  float: left;
+}
+.col3 {
+  width: 460px;
+  position: relative;
+  float: left;
+}
+.col31 {
+  width: 220px;
+  position: relative;
+  float: left;
+}
+.col4 {
+  width: 700px;
+  position: relative;
+  float: left;
+}
+.col5 {
+  width: 340px;
+  position: relative;
+  float: left;
+}
+.col6 {
+  width: 290px;
+  position: relative;
+  float: left;
+}
